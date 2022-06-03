@@ -14,6 +14,7 @@ public static void printUniqueChars(String s1,
                                    String s2)
 {
     String str1 = s1.toLowerCase();
+//TEST
     String str2 = s2.toLowerCase();
     int result[] = new int[chars];
     for (int i = 0; i < chars; i++)
