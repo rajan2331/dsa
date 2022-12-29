@@ -1,0 +1,77 @@
+
+
+26/12/2022
+https://www.linkedin.com/my-items/saved-posts/
+how to find the size of the website :from Var file and (traffic on the website )
+How to use winscp to tranfer files from computer to the Linux server:Done
+#########################################################################################
+27/12/2022
+
+1.IAM policy for S3 bucket to give specfic permissions
+2.DynomoDB table 
+3.difference between the SQL and non SQL
+4.How to define the dynmodb table what is partion key and index
+if we want to query the table when its partion key then we are using the throughout as an ideal manner 
+its simple way but when we want to query the other attributes other than the partion key then we need to create the  indexs
+
+5.In realtion to read capacity there is terms accosiated with?  waht is the eventually consistent, strong consistent and the transactional consistent
+so if we update atable and then perform a subsequent read on same data then we will get the stale data?this is becasue data will replicate to all the data cebtre and eventually become consistent.this is known as eventually consistent data 
+if you want to have the latest data then we need to perform the request we need to mention the attribute known as strong consistency and comes with high cost
+if we wnat to have eventuall consistent data then the read throughtput will become double compare to the  strong consistent value 
+6.Can also automatically scale the read and write capacity based on the load
+7.Can also Encrypt the data
+8.Two types of indexes loacl secondary and global secondary
+9.Nexxt project Event driven architecture
+##########################################################################################
+28/1/2023
+Need to check out the code for severless on AWS documentation
+SMTP
+
+
+:Mwx1y{%#HL]P$|R[c3r*ej?`YG4q9M`
+AKIAXRC3F5OSDHJAH2KT
+8PKHTsq8wnqDs5fuOu9pGWIrm0Fzfqy0BUa/lFQ0
+
+define( 'AS3CF_AWS_ACCESS_KEY_ID', 'AKIAXRC3F5OSDHJAH2KT' );
+define( 'AS3CF_AWS_SECRET_ACCESS_KEY', '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' );
+bucket-42qsjf
+
+
+define( 'AS3CF_SETTINGS', serialize( array (
+
+    'provider' => 'aws',
+
+    'access-key-id' => 'AKIAXRC3F5OSGSV3GAHJ',
+
+    'secret-access-key' => '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',
+
+) ) );
+
+how to configure right s3 bucket for the wordpress
+why i am not able to view the file 
+
+52.86.218.70
+
+YVWp7k7no8ua
+
+AKIAXRC3F5OSGSV3GAHJ
+k6LLBOZfp+2etg0TJyPQpwMCVnAz/L/gl91G6vNY
+
+
+S3
+AKIAR2EJGKR4G7IZETHE
+Qtl3h2ehtTAQ8w/H9mt9R9/kkT2FwEhUZWdUXBMV
+////////////////////////////////////////////
+Always add the alternative domain naem 
+setting the security policy to TLSv12016
+////////////////////////
+??How to migrate the wordpress site to the AWS 
+https://www.youtube.com/results?search_query=migration+of+wordpress+to+aws+lightsail
+??S3 bucket and know all the 
+K??now everthing about CDN 
+??SES Simple Email services
+??VPN Practise
+??github how to create repostries
+https://github.com/CloudedThings/100-Days-in-Cloud/tree/main/Labs/92-Moving%20Route%2053%20DNS%20to%20Lightsail
+
+We are looking for who is expert in wordpress development especially debugging and troubleshooting who also have expertise of AWS Lightsail management. Our we website goes down frequently and the problem gone worst since last day after some updates. We want someone who can fix this up on fast pace without any damage to the site
