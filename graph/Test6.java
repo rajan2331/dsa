@@ -50,13 +50,13 @@ public class Test6 {
         	{
         		for(char c='a';c<='z';c++)
         		{
-        			String newWord = currWord.replace(currWord.charAt(i),c);
-        			if(set.contains(newWord))
+        			   char replacedCharArray[] = currWord.toCharArray();
+                       replacedCharArray[i] = c;
+                       String replacedWord = new String(replacedCharArray);
+        			if(set.contains(replacedWord))
         			{
-        				queue.add(new Pair(newWord,step+1));
-        				set.remove(newWord);
-        				break;
-        				
+        				queue.add(new Pair(replacedWord,step+1));
+        				set.remove(replacedWord);
         			}
         		}
         		
