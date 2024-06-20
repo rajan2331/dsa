@@ -10,7 +10,10 @@ import java.util.stream.Collectors;
 
 
 public class Java8Streams {
-
+/**
+ * 
+ *   Reference Questions :   // https://blog.devgenius.io/java-8-coding-and-programming-interview-questions-and-answers-62512c44f062
+ */
 	public static void main(String[] args) {
 
 		List<Integer> list =  Arrays.asList(1,32,14,56,8,32,16,1);
@@ -70,6 +73,8 @@ public class Java8Streams {
          System.out.println();
          /** Descending order **/
          list.stream().sorted(Collections.reverseOrder()).forEach(System.out::print);
+         
+       
 	}
 
 }
