@@ -1,4 +1,3 @@
-package ae.dubaipolice.soap;
 
 import java.util.ArrayList;
 import java.util.Collections;

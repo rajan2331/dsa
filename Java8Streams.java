@@ -1,11 +1,13 @@
-package ae.dubaipolice.dpsvolunteer.implementation;
 
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Set;
 import java.util.function.Function;
+import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 
@@ -74,7 +76,32 @@ public class Java8Streams {
          /** Descending order **/
          list.stream().sorted(Collections.reverseOrder()).forEach(System.out::print);
          
+       Set<Integer> set = new HashSet<>(list);
+       if(set.size()!=list.size())
+       System.out.println("false");
+      System.out.println();
+
+      List<Integer> integerList = Arrays.asList(4,5,6,7,1,2,3);
+      integerList.stream()
+       .map(i->i*i*i)
+       .filter(i->i>50)
+       .forEach(System.out::println);
+
+       List<String> names =  Arrays.asList("rajan","sharma");
+
+       names.stream()
+       .map(a->a.toUpperCase())
+       .forEach(a->System.out.print(a+" "));
+       List<String> names1 = Arrays.asList("AA", "BB", "AA", "CC");
+
+       Map<String,Long> namesCount  = 
+       names1.
+       stream()
+       .collect
+       (Collectors.groupingBy(Function.identity(),Collectors.counting()));
+       System.out.println(namesCount);
        
+
 	}
 
 }
